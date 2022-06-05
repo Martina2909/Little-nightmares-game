@@ -1,0 +1,30 @@
+#videoBG{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media (min-aspect-ration: 16/9) {
+    #videoBG{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ration: 16/9) {
+    #videoBG{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+#monotext{
+    display: none;
+}
+
+#sixtext{
+    display: none;
+}
+
